@@ -1,5 +1,13 @@
 {
   "name": "VETC LUTSK UA",
   "description": "VETC LUTSK WEBSITE",
-  "repository": "https://github.com/sirynka/VETC_LUTSK_UA" 
+  "repository": "https://github.com/sirynka/VETC_LUTSK_UA",
+  "buildpacks": [
+    {
+      "url": "https://github.com/sirynka/VETC_LUTSK_UA"
+    },
+    {
+      "url": "heroku/nodesj"
+    }
+  ]
 }
