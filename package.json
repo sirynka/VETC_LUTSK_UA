@@ -1,0 +1,25 @@
+{
+  "name": "vetc-lutsk-ua",
+  "version": "1.0.0",
+  "description": "vetc lutsk ua web site",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirynka/VETC_LUTSK_UA.git"
+  },
+  "author": "sirynka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirynka/VETC_LUTSK_UA/issues"
+  },
+  "homepage": "https://github.com/sirynka/VETC_LUTSK_UA#readme"
+}
