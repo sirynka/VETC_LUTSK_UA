@@ -10,7 +10,7 @@ express()
     .set('view engine', 'ejs')
     .get('/docs/*', (req, res) => res.sendFile(req.url))
     .get('/', (req, res) => res.render('index', { page: 'main' }))
-    .get('*.ejs', (req, res) => res.render('index', { page: req.url }))
+    .get('*', (req, res) => res.render('index', { page: req.url }))
     .listen(PORT)
 
 
