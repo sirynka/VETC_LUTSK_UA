@@ -11,7 +11,7 @@ express()
     .get('/docs/*', (req, res) => res.sendFile(req.url))
     .get('/', (req, res) => res.render('index', { page: 'main' }))
     .get('*.*', (req, res) => res.sendFile(path.join(__dirname, req.url)))
-    .get('*', (req, res) => res.render('index', { page: req.url + "#navbar" }))
+    .get('*', (req, res) => res.render('index', { page: req.url }))
     .listen(PORT)
 
 
